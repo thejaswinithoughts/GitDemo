@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rahulshettyacdemy1.Tests.SubmitOrderTest">
+      <class name="Selenium.Test.Streams">
         <methods>
-          <include name="tearDown"/>
-          <include name="lanchApplication"/>
-          <include name="submitOrderTest" invocation-numbers="0 1"/>
+          <include name="streamCancat"/>
         </methods>
-      </class> <!-- rahulshettyacdemy1.Tests.SubmitOrderTest -->
+      </class> <!-- Selenium.Test.Streams -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
